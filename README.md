@@ -1,5 +1,3 @@
-# FrycDatapacks
+# FrycDatapacks - 1.21
 
-I'll upload example datapacks for all my mods here...
-
-...someday
+For now only one example datapack is available - i will add the rest some other day.

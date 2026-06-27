@@ -1,0 +1,9 @@
+{
+  "parryAttributes": "my_parry_attributes",
+  "items": [
+    "minecraft:stick",
+    "minecraft:dirt",
+    "minecraft:iron_sword",
+    "minecraft:stone"
+  ]
+}
