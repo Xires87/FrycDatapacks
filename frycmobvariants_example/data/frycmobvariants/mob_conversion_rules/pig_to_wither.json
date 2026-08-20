@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "target_mob": "minecraft:pig",
+  "outcome_mob": "minecraft:wither",
+  "equipment": {
+    "keep_equipment": false,
+    "init_equipment": false,
+    "custom_equipment": []
+  },
+  "requirements": {
+    "type": "AND",
+    "functions": [
+      {
+        "type": "biome",
+        "tag": "minecraft:is_overworld"
+      },
+      {
+        "type": "mob_position_chance",
+        "base_value": {
+          "value": -1
+        },
+        "x": {
+          "value": 0.0001
+        }
+      }
+    ]
+  }
+}

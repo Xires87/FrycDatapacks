@@ -1,0 +1,22 @@
+{
+  "priority": 1,
+  "target_mob": "minecraft:enderman",
+  "outcome_mob": "minecraft:shulker",
+  "equipment": {
+    "keep_equipment": false,
+    "init_equipment": false,
+    "custom_equipment": []
+  },
+  "requirements": {
+    "type": "AND",
+    "functions": [
+      {
+        "type": "NOT",
+        "function": {
+          "type": "biome",
+          "tag": "minecraft:is_end"
+        }
+      }
+    ]
+  }
+}

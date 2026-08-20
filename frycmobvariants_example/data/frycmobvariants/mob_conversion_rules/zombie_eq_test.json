@@ -1,0 +1,35 @@
+{
+  "priority": 0,
+  "target_mob": "minecraft:zombie",
+  "outcome_mob": "minecraft:zombie",
+  "equipment": {
+    "keep_equipment": false,
+    "init_equipment": false,
+    "custom_equipment": [
+      {
+        "slot": "mainhand",
+        "item": "minecraft:netherite_pickaxe",
+        "chance": 1.0
+      },
+      {
+        "slot": "mainhand",
+        "item": "minecraft:iron_axe",
+        "chance": 1.0
+      },
+      {
+        "slot": "head",
+        "item": "minecraft:leather_helmet",
+        "chance": 0.3
+      },
+      {
+        "slot": "head",
+        "item": "minecraft:diamond_helmet",
+        "chance": 0.9
+      }
+    ]
+  },
+  "requirements": {
+    "type": "fixed_chance",
+    "value": 1.0
+  }
+}
