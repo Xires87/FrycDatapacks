@@ -1,0 +1,14 @@
+{
+  "priority": 1,
+  "target_mob": "minecraft:sheep",
+  "outcome_mob": "minecraft:zombie",
+  "equipment": {
+    "keep_equipment": false,
+    "init_equipment": true,
+    "custom_equipment": []
+  },
+  "requirements": {
+    "type": "biome",
+    "tag": "frycmobvariants:sheep_to_zombie_convert_biomes"
+  }
+}

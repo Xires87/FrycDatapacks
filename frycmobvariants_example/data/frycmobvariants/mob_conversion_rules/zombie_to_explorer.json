@@ -1,0 +1,14 @@
+{
+  "priority": 2,
+  "target_mob": "minecraft:zombie",
+  "outcome_mob": "minecraft:zombie",
+  "equipment": {
+    "keep_equipment": false,
+    "init_equipment": false,
+    "custom_equipment": []
+  },
+  "requirements": {
+    "type": "fixed_chance",
+    "value": 0.0
+  }
+}
